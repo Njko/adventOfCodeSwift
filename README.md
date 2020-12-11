@@ -1,4 +1,4 @@
-# Advent Of Code Swift Edition
+# Advent Of Code Swift 5 Edition
 
 This repository will contain the test projects for the Advent Of Code. Started in 2020, the previous challenge will be solved as times comes by.
 
