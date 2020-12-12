@@ -26,6 +26,9 @@
 		E620BD0E25821A84001C1102 /* Input2020_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = E620BC792580D939001C1102 /* Input2020_10.txt */; };
 		E620BD1225835F5D001C1102 /* Advent2020Challenge11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BD1125835F5C001C1102 /* Advent2020Challenge11Tests.swift */; };
 		E620BD1925835FD5001C1102 /* Input2020_11.txt in Resources */ = {isa = PBXBuildFile; fileRef = E620BD1725835FA1001C1102 /* Input2020_11.txt */; };
+		E620BD1D2584C42F001C1102 /* Input2020_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = E620BD1C2584C424001C1102 /* Input2020_12.txt */; };
+		E620BD212584C483001C1102 /* Advent2020Challenge12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BD202584C483001C1102 /* Advent2020Challenge12Tests.swift */; };
+		E620BD2E2585104D001C1102 /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BD2D2585104D001C1102 /* VectorMath.swift */; };
 		E6A221C325778A60006663E2 /* Advent2020Challenge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A221C225778A60006663E2 /* Advent2020Challenge2Tests.swift */; };
 		E6A221D225778CF0006663E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A221D125778CEF006663E2 /* Utils.swift */; };
 		E6A221D9257791EE006663E2 /* Input2020_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E6A221CA25778AE4006663E2 /* Input2020_2.txt */; };
@@ -73,6 +76,9 @@
 		E620BC7B2580D971001C1102 /* Advent2020Challenge10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge10Tests.swift; sourceTree = "<group>"; };
 		E620BD1125835F5C001C1102 /* Advent2020Challenge11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge11Tests.swift; sourceTree = "<group>"; };
 		E620BD1725835FA1001C1102 /* Input2020_11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_11.txt; sourceTree = "<group>"; };
+		E620BD1C2584C424001C1102 /* Input2020_12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_12.txt; sourceTree = "<group>"; };
+		E620BD202584C483001C1102 /* Advent2020Challenge12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge12Tests.swift; sourceTree = "<group>"; };
+		E620BD2D2585104D001C1102 /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorMath.swift; sourceTree = "<group>"; };
 		E6A221C225778A60006663E2 /* Advent2020Challenge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge2Tests.swift; sourceTree = "<group>"; };
 		E6A221CA25778AE4006663E2 /* Input2020_2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_2.txt; sourceTree = "<group>"; };
 		E6A221D125778CEF006663E2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -138,9 +144,11 @@
 				E620BC72257FB4C9001C1102 /* Day 9 */,
 				E620BC7A2580D95D001C1102 /* Day 10 */,
 				E620BD1825835FBA001C1102 /* Day 11 */,
+				E620BD2A2584D1FC001C1102 /* Day 12 */,
 				E614E40725763AB8001ECA3B /* AdventOfCodeApp.swift */,
 				E614E40925763AB8001ECA3B /* ContentView.swift */,
 				E6A221D125778CEF006663E2 /* Utils.swift */,
+				E620BD2D2585104D001C1102 /* VectorMath.swift */,
 				E614E40B25763ABB001ECA3B /* Assets.xcassets */,
 				E614E41025763ABB001ECA3B /* Info.plist */,
 				E614E40D25763ABB001ECA3B /* Preview Content */,
@@ -213,6 +221,14 @@
 			name = "Day 11";
 			sourceTree = "<group>";
 		};
+		E620BD2A2584D1FC001C1102 /* Day 12 */ = {
+			isa = PBXGroup;
+			children = (
+				E620BD1C2584C424001C1102 /* Input2020_12.txt */,
+			);
+			name = "Day 12";
+			sourceTree = "<group>";
+		};
 		E6A221DF2577B1CD006663E2 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +243,7 @@
 				E620BC66257FB45A001C1102 /* Advent2020Challenge9Tests.swift */,
 				E620BC7B2580D971001C1102 /* Advent2020Challenge10Tests.swift */,
 				E620BD1125835F5C001C1102 /* Advent2020Challenge11Tests.swift */,
+				E620BD202584C483001C1102 /* Advent2020Challenge12Tests.swift */,
 			);
 			name = 2020;
 			sourceTree = "<group>";
@@ -367,6 +384,7 @@
 				E6A2222F257A5FAB006663E2 /* Input2020_4_example_part2_valid.txt in Resources */,
 				E6A2221B257A2B4D006663E2 /* Input2020_4_example_part1.txt in Resources */,
 				E620BC12257CE20A001C1102 /* Input2020_6.txt in Resources */,
+				E620BD1D2584C42F001C1102 /* Input2020_12.txt in Resources */,
 				E620BD1925835FD5001C1102 /* Input2020_11.txt in Resources */,
 				E6A222042578D3BC006663E2 /* Input2020_3_example.txt in Resources */,
 				E620BC73257FB4E0001C1102 /* Input2020_9.txt in Resources */,
@@ -389,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E620BD2E2585104D001C1102 /* VectorMath.swift in Sources */,
 				E614E40A25763AB8001ECA3B /* ContentView.swift in Sources */,
 				E614E40825763AB8001ECA3B /* AdventOfCodeApp.swift in Sources */,
 				E6A221D225778CF0006663E2 /* Utils.swift in Sources */,
@@ -404,6 +423,7 @@
 				E6A22234257A8C63006663E2 /* Advent2020Challenge5Tests.swift in Sources */,
 				E6A221EB2577B3E1006663E2 /* Advent2020Challenge3Tests.swift in Sources */,
 				E614E41A25763ABB001ECA3B /* Advent2020Challenge1Tests.swift in Sources */,
+				E620BD212584C483001C1102 /* Advent2020Challenge12Tests.swift in Sources */,
 				E6A221C325778A60006663E2 /* Advent2020Challenge2Tests.swift in Sources */,
 				E620BC3F257E1989001C1102 /* Advent2020Challenge7Tests.swift in Sources */,
 				E620BC7C2580D971001C1102 /* Advent2020Challenge10Tests.swift in Sources */,
