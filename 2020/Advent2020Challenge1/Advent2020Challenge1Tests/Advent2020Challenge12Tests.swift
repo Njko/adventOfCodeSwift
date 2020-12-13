@@ -13,6 +13,7 @@ enum FerryDirection: Int{
     case south = 180
     case west = 270
 }
+
 class WayPoint {
     private(set) var coordinates: Vector2 = .zero
     
