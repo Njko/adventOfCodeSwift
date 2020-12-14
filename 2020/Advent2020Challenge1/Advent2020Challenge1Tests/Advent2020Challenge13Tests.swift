@@ -191,7 +191,7 @@ class Advent2020Challenge13Tests: XCTestCase {
             XCTAssertNotNil(splittedArray)
             
             let result = myClass.findEarlisetMatchOfTimetables(listOfBussesTimetables)
-            XCTAssertEqual(result, 52203)
+            XCTAssertEqual(result, 327300950120029)
         } else {
             XCTAssertNotNil(data)
         }

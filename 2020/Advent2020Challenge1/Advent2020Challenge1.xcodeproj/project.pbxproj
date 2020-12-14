@@ -31,6 +31,8 @@
 		E620BD2E2585104D001C1102 /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BD2D2585104D001C1102 /* VectorMath.swift */; };
 		E620BD3225862120001C1102 /* Input2020_13.txt in Resources */ = {isa = PBXBuildFile; fileRef = E620BD3125862114001C1102 /* Input2020_13.txt */; };
 		E620BD3B25862145001C1102 /* Advent2020Challenge13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BD3A25862145001C1102 /* Advent2020Challenge13Tests.swift */; };
+		E627671A258753F100C29EA9 /* Advent2020Challenge14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6276719258753F100C29EA9 /* Advent2020Challenge14Tests.swift */; };
+		E6276721258756A500C29EA9 /* Input2020_14.txt in Resources */ = {isa = PBXBuildFile; fileRef = E6276717258753C500C29EA9 /* Input2020_14.txt */; };
 		E6A221C325778A60006663E2 /* Advent2020Challenge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A221C225778A60006663E2 /* Advent2020Challenge2Tests.swift */; };
 		E6A221D225778CF0006663E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A221D125778CEF006663E2 /* Utils.swift */; };
 		E6A221D9257791EE006663E2 /* Input2020_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E6A221CA25778AE4006663E2 /* Input2020_2.txt */; };
@@ -83,6 +85,8 @@
 		E620BD2D2585104D001C1102 /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorMath.swift; sourceTree = "<group>"; };
 		E620BD3125862114001C1102 /* Input2020_13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_13.txt; sourceTree = "<group>"; };
 		E620BD3A25862145001C1102 /* Advent2020Challenge13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge13Tests.swift; sourceTree = "<group>"; };
+		E6276717258753C500C29EA9 /* Input2020_14.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_14.txt; sourceTree = "<group>"; };
+		E6276719258753F100C29EA9 /* Advent2020Challenge14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge14Tests.swift; sourceTree = "<group>"; };
 		E6A221C225778A60006663E2 /* Advent2020Challenge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent2020Challenge2Tests.swift; sourceTree = "<group>"; };
 		E6A221CA25778AE4006663E2 /* Input2020_2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input2020_2.txt; sourceTree = "<group>"; };
 		E6A221D125778CEF006663E2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				E620BD1825835FBA001C1102 /* Day 11 */,
 				E620BD2A2584D1FC001C1102 /* Day 12 */,
 				E620BD3525862126001C1102 /* Day 13 */,
+				E6276718258753DC00C29EA9 /* Day 14 */,
 				E614E40725763AB8001ECA3B /* AdventOfCodeApp.swift */,
 				E614E40925763AB8001ECA3B /* ContentView.swift */,
 				E6A221D125778CEF006663E2 /* Utils.swift */,
@@ -242,6 +247,14 @@
 			name = "Day 13";
 			sourceTree = "<group>";
 		};
+		E6276718258753DC00C29EA9 /* Day 14 */ = {
+			isa = PBXGroup;
+			children = (
+				E6276717258753C500C29EA9 /* Input2020_14.txt */,
+			);
+			name = "Day 14";
+			sourceTree = "<group>";
+		};
 		E6A221DF2577B1CD006663E2 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +271,7 @@
 				E620BD1125835F5C001C1102 /* Advent2020Challenge11Tests.swift */,
 				E620BD202584C483001C1102 /* Advent2020Challenge12Tests.swift */,
 				E620BD3A25862145001C1102 /* Advent2020Challenge13Tests.swift */,
+				E6276719258753F100C29EA9 /* Advent2020Challenge14Tests.swift */,
 			);
 			name = 2020;
 			sourceTree = "<group>";
@@ -400,6 +414,7 @@
 				E620BC12257CE20A001C1102 /* Input2020_6.txt in Resources */,
 				E620BD1D2584C42F001C1102 /* Input2020_12.txt in Resources */,
 				E620BD1925835FD5001C1102 /* Input2020_11.txt in Resources */,
+				E6276721258756A500C29EA9 /* Input2020_14.txt in Resources */,
 				E6A222042578D3BC006663E2 /* Input2020_3_example.txt in Resources */,
 				E620BD3225862120001C1102 /* Input2020_13.txt in Resources */,
 				E620BC73257FB4E0001C1102 /* Input2020_9.txt in Resources */,
@@ -444,6 +459,7 @@
 				E620BC7C2580D971001C1102 /* Advent2020Challenge10Tests.swift in Sources */,
 				E620BD3B25862145001C1102 /* Advent2020Challenge13Tests.swift in Sources */,
 				E620BC17257CE225001C1102 /* Advent2020Challenge6Tests.swift in Sources */,
+				E627671A258753F100C29EA9 /* Advent2020Challenge14Tests.swift in Sources */,
 				E620BC67257FB45A001C1102 /* Advent2020Challenge9Tests.swift in Sources */,
 				E620BC55257F699C001C1102 /* Advent2020Challenge8Tests.swift in Sources */,
 			);

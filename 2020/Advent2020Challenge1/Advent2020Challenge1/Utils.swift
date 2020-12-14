@@ -25,7 +25,11 @@ extension String {
         return result
     }
     
-    
+    mutating func pad(toSize: Int) {
+        for _ in 0..<(toSize - self.count) {
+            self = "0" + self
+        }
+    }
 }
 
 infix operator ^| : ComparisonPrecedence
