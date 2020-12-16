@@ -10,7 +10,7 @@ class MyClass202015 {
         
         var turns = data
         turns.append(0) // turn after init is always 0
-        for turn in data.count + 2 ...  2020 {
+        for _ in data.count + 2 ...  2020 {
             
             let lastSpokenNumber = turns[turns.count - 1]
             if turns.filter({ $0 == lastSpokenNumber}).count > 1 {
